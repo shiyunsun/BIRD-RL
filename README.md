@@ -44,11 +44,13 @@ It's important to note that these values are not provided in the official docume
 - ##### Python 3.10.11
 - ##### Jupyter Notebook
 - ##### PyTorch
-- ##### torchvision
-- ##### matplotlib
+- ##### flappy_bird_gymnasium
+- ##### gymnasium
+- ##### PyPI
 ### Run the Pre-Trained Agent :robot:
+Simply run demo.ipynb
 ### Train You Own Agent :robot:
-
+To initiate training, execute the dqn.ipynb notebook. The training process employs an epsilon-greedy strategy for exploration. It's crucial to note the inherent instability in training—initially achieving a high score doesn't guarantee sustained performance. After a few iterations, the model may struggle to navigate through only a few pipes. To address this, the training script consistently saves the model with the best performance, providing a reliable checkpoint for optimal results. Monitor the training progress closely and refer to the saved models for the most effective iterations throughout the training process
 # Acknowledgements
 [1] The original DQN research paper by Watkins https://link.springer.com/content/pdf/10.1007/BF00992698.pdf  <br>
 [2] UCLA RL course https://github.com/ucla-rlcourse
