@@ -44,7 +44,7 @@ It's important to note that these values are not provided in the official docume
 - ##### Python 3.10.11
 - ##### Jupyter Notebook
 - ##### PyTorch
-- ##### [flappy_bird_gymnasium](https://pypi.org/project/flappy-bird-gymnasium/)
+- ##### flappy_bird_gymnasium
 - ##### gymnasium
 - ##### PyPI
 ### Run the Pre-Trained Agent :robot:
