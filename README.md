@@ -5,13 +5,13 @@ This repository contains the implementation of a Deep Q Network (DQN) to play th
 
 # Environment 🌳
 ### State Space 🌱
-- the left most pipe's horizontal position
+- the left most (relative to the screen) pipe's horizontal position
 - the left most top pipe's vertical position
 - the left most bottom pipe's vertical position
-- the next pipe's horizontal position
+- the next (relative to the left most pipe) pipe's horizontal position
 - the next top pipe's vertical position
 - the next bottom pipe's vertical position
-- the next next pipe's horizontal position
+- the next next (relative to the left most pipe) pipe's horizontal position
 - the next next top pipe's vertical position
 - the next next bottom pipe's vertical position
 - player's vertical position
