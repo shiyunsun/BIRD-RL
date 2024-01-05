@@ -18,7 +18,7 @@ This repository contains the implementation of a Deep Q Network (DQN) to play th
 - player's vertical velocity
 - player's rotation
   
-If the pipes have not appeared on screen yet, the values will be represented by 1 or 0
+If the pipes have not appeared on screen yet, the values will be represented by 1 or 0. Please note that there are a maximum of two pipes ahead of the bird. To simplify the learning process, preprocessing is performed in advance. Specifically, only the data related to the two pipes that the bird has not yet passed are fed into the neural network.
 ### Coordinates 🪴
 - The leftmost screen position is considered 0, and the rightmost screen position is considered 1.
 - The top of the screen is considered 0, while the bottom of the screen is considered 1.
