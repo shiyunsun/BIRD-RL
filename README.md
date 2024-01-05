@@ -39,5 +39,16 @@ It's important to note that these values are not provided in the official docume
 - -1.0 - dying
 # Deep Q Network 🕸️
 <img src="assets/critic_network.png" alt="Alt text" style="width: 40%; height: 40%;"> <img src="assets/dqn.png" alt="Alt text" style="width: 40%; height: 40%;">
-# Usage
-# Reference
+# Usage 📝
+### Requirements ✅
+- ##### Python 3.10.11
+- ##### Jupyter Notebook
+- ##### PyTorch
+- ##### torchvision
+- ##### matplotlib
+### Run the Pre-Trained Agent 😺
+### Train You Own Agent 😺
+
+# Acknowledgements
+[1] The original DQN research paper by Watkins https://link.springer.com/content/pdf/10.1007/BF00992698.pdf  <br>
+[2] UCLA RL course https://github.com/ucla-rlcourse
