@@ -4,10 +4,10 @@ This repository contains the implementation of a Deep Q Network (DQN) to play th
 <img src="assets/FlappyBird_with_DQN.gif" alt="Alt text" style="width: 70%; height: 70%;">
 
 # Environment
-#### State space
-- the last pipe's horizontal position
-- the last top pipe's vertical position
-- the last bottom pipe's vertical position
+### State space
+- the left most pipe's horizontal position
+- the left most top pipe's vertical position
+- the left most bottom pipe's vertical position
 - the next pipe's horizontal position
 - the next top pipe's vertical position
 - the next bottom pipe's vertical position
@@ -17,10 +17,21 @@ This repository contains the implementation of a Deep Q Network (DQN) to play th
 - player's vertical position
 - player's vertical velocity
 - player's rotation
-#### Action space
+If the pipes have not appeared on screen yet, the values will be represented by 1 or 0
+### Coordinates
+- The leftmost screen position is considered 0, and the rightmost screen position is considered 1.
+- The top of the screen is considered 0, while the bottom of the screen is considered 1.
+- The horizontal position of a pipe is measured by its leftmost edge.
+- The vertical position of the bird is measured by the bottom of the bird.
+- The horizontal position of the bird's head is fixed at 0.30556 on the screen.
+- The width of the bird is calculated as 25/230 of the screen width.
+- The height of the bird is set to 0.06 of the screen height.
+- The width of a pipe is defined as 1/6 of the screen width.
+It's important to note that these values are not provided in the official documentation of the Flappy Bird Gym environment. Instead, they have been measured manually, pixel by pixel, to provide a reference for -crafting a new reward function. This is particularly crucial as the default reward function may prove challenging for training, and adjusting it based on these measurements can enhance the learning process. - Experimenting with these values allows for the creation of a more effective reward function tailored to the specifics of the Flappy Bird environment.
+### Action space
 0 - do nothing
 1 - flap
-#### Rewards
+### Rewards
 - +0.1 - every frame it stays alive
 - +1.0 - successfully passing a pipe
 - -1.0 - dying
