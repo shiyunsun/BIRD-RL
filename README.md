@@ -33,7 +33,7 @@ It's important to note that these values are not provided in the official docume
 ### Action space :shamrock:
 0 - do nothing
 1 - flap
-### Rewards :leaves:
+### Rewards 🪙
 - +0.1 - every frame it stays alive
 - +1.0 - successfully passing a pipe
 - -1.0 - dying
