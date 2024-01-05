@@ -39,6 +39,7 @@ It's important to note that these values are not provided in the official docume
 - -1.0 - dying
 # Deep Q Network 🕸️
 <img src="assets/critic_network.png" alt="Alt text" style="width: 40%; height: 40%;"> <img src="assets/dqn.png" alt="Alt text" style="width: 40%; height: 40%;">
+
 As shown in the above graph, there are two ways to simulate the Q function. We found that the method used in the left graph performs much better in the environment. To compute the action, we need to calculate the Q value for both actions and select the action with the larger Q value.
 # Usage 📝
 ### Requirements ✅
