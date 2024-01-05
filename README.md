@@ -17,6 +17,7 @@ This repository contains the implementation of a Deep Q Network (DQN) to play th
 - player's vertical position
 - player's vertical velocity
 - player's rotation
+  
 If the pipes have not appeared on screen yet, the values will be represented by 1 or 0
 ### Coordinates
 - The leftmost screen position is considered 0, and the rightmost screen position is considered 1.
