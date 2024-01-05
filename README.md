@@ -29,7 +29,8 @@ If the pipes have not appeared on screen yet, the values will be represented by 
 - The height of the bird is set to 0.06 of the screen height.
 - The width of a pipe is defined as 1/6 of the screen width.
   
-It's important to note that these values are not provided in the official documentation of the Flappy Bird Gym environment. Instead, they have been measured manually, pixel by pixel, to provide a reference for -crafting a new reward function. This is particularly crucial as the default reward function may prove challenging for training, and adjusting it based on these measurements can enhance the learning process. - Experimenting with these values allows for the creation of a more effective reward function tailored to the specifics of the Flappy Bird environment.
+It's important to note that these values are not provided in the official documentation of the [Flappy Bird Gym](https://pypi.org/project/flappy-bird-gymnasium/
+) environment. Instead, they have been measured manually, pixel by pixel, to provide a reference for -crafting a new reward function. This is particularly crucial as the default reward function may prove challenging for training, and adjusting it based on these measurements can enhance the learning process. - Experimenting with these values allows for the creation of a more effective reward function tailored to the specifics of the Flappy Bird environment.
 ### Action space :shamrock:
 0 - do nothing
 1 - flap
