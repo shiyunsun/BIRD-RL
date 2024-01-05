@@ -3,5 +3,4 @@ This repository contains the implementation of a Deep Q Network (DQN) to play th
 
 <img src="assets/FlappyBird_with_DQN.gif" alt="Alt text" style="width: 70%; height: 70%;">
 
-<img src="assets/critic_network.png" alt="Alt text" style="width: 70%; height: 70%;">
-<img src="assets/dqn.png" alt="Alt text" style="width: 70%; height: 70%;">
+<img src="assets/critic_network.png" alt="Alt text" style="width: 40%; height: 40%;"> <img src="assets/dqn.png" alt="Alt text" style="width: 40%; height: 40%;">
