@@ -35,9 +35,13 @@ It's important to note that these values are not provided in the official docume
 0 - do nothing
 1 - flap
 ### Rewards 🪙
-- +0.1 - every frame it stays alive
+- +0.1 - every frame it stays alive between the top of the next and bottom of the next pipe (can be a little lower than the bottom, based on how the human experts plays)
+- +0.01 -if not
 - +1.0 - successfully passing a pipe
-- -1.0 - dying
+- -1.0 - dying or vertical position < 0
+
+The reward function is designed to reinforce positive behaviors, ensuring that favorable actions receive higher rewards. This design is crucial to facilitate the collection of samples where the agent successfully passes through a pipe. Without such tailored rewards, it proves challenging for the agent to effectively learn and generalize its behavior in navigating the environment.
+
 # Deep Q Network 🕸️
 <img src="assets/critic_network.png" alt="Alt text" style="width: 40%; height: 40%;"> <img src="assets/dqn.png" alt="Alt text" style="width: 40%; height: 40%;">
 
