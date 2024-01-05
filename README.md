@@ -4,7 +4,7 @@ This repository contains the implementation of a Deep Q Network (DQN) to play th
 <img src="assets/FlappyBird_with_DQN.gif" alt="Alt text" style="width: 70%; height: 70%;">
 
 # Environment 🌳
-### State space 🌱
+### State Space 🌱
 - the left most pipe's horizontal position
 - the left most top pipe's vertical position
 - the left most bottom pipe's vertical position
